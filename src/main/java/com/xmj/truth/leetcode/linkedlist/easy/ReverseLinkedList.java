@@ -6,32 +6,9 @@ package com.xmj.truth.leetcode.linkedlist.easy;
  * desc 反转链表
  */
 public class ReverseLinkedList {
-    /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode(int x) { val = x; }
-     * }
-     */
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
-        @Override
-        public String toString() {
-            return String.valueOf(val);
-        }
-    }
 
     // 迭代
     public ListNode reverseListItertive(ListNode head) {
-        if (head == null)
-            return null;
         ListNode prev = null;
         ListNode curr = head;
         ListNode next; // 防止链表反转时丢失对后一个节点的引用
@@ -41,8 +18,7 @@ public class ReverseLinkedList {
             prev = curr;
             curr = next;
         }
-        head = prev;
-        return head;
+        return prev;
     }
 
     // 递归

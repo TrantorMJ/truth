@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1f371e-1623-4fe5-9d84-14be0c82c184" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionofTwoLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/MiddleOfLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Bag$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Bag$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Bag$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Bag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/FixedCapacityStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/FixedCapacityStackOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Queue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Queue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/ResizingArrayStack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/ResizingArrayStack$ReverseArrayIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/ResizingArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Stack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Stack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/data_structure/stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/leetcode/linkedlist/easy/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/leetcode/linkedlist/easy/RemoveLinkedListElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xmj/truth/leetcode/linkedlist/easy/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionofTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionOfTwoLinkedLists.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntersectionofTwoLinkedLists.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionofTwoLinkedLists.java">
+      <file leaf-file-name="IntersectionOfTwoLinkedLists.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionOfTwoLinkedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state relative-caret-position="231">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -114,8 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +156,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xmj" type="462c0819:PsiDirectoryNode" />
               <item name="truth" type="462c0819:PsiDirectoryNode" />
+              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="truth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="truth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xmj" type="462c0819:PsiDirectoryNode" />
+              <item name="truth" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,6 +199,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,16 +313,15 @@
       <option name="presentableId" value="Default" />
       <updated>1532332881501</updated>
       <workItem from="1532332886832" duration="61756000" />
-      <workItem from="1533024315835" duration="4026000" />
+      <workItem from="1533024315835" duration="4438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65782000" />
+    <option name="totallyTimeSpent" value="66194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -345,7 +336,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32844037" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.4544236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -406,7 +397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionofTwoLinkedLists.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionOfTwoLinkedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
@@ -543,10 +534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionofTwoLinkedLists.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmj/truth/leetcode/linkedlist/easy/IntersectionOfTwoLinkedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state relative-caret-position="231">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>

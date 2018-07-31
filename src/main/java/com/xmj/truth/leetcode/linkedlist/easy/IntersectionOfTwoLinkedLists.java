@@ -5,7 +5,7 @@ package com.xmj.truth.leetcode.linkedlist.easy;
  * create 2018-07-31 15:31
  * desc 相交链表
  */
-public class IntersectionofTwoLinkedLists {
+public class IntersectionOfTwoLinkedLists {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null)

@@ -4,6 +4,7 @@ package com.xmj.truth.leetcode.linkedlist.easy;
  * author xiumj
  * create 2018-07-27 09:45
  * desc 删除链表中的节点(stupid question)
+ *
  * 说明：
  * 链表至少包含两个节点。
  * 链表中所有节点的值都是唯一的。

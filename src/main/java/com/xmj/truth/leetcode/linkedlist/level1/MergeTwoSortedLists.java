@@ -1,4 +1,6 @@
-package com.xmj.truth.leetcode.linkedlist.easy;
+package com.xmj.truth.leetcode.linkedlist.level1;
+
+import com.xmj.truth.leetcode.linkedlist.ListNode;
 
 /**
  * author xiumj

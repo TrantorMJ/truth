@@ -20,7 +20,7 @@ public class learnst {
      * @param urlPath
      * @param paramList
      * @return
-     */
+     *//*
     private static String makeUpUrl(String urlPath, List<Param> paramList) {
         String baseUrl = urlPath;
         int index = 0;
@@ -43,15 +43,15 @@ public class learnst {
     }
 
     public static String signUrl(String url, List<Param> paramList, String algorithm, String secret) {
-        Map<String,String> sortedParams = new TreeMap<>();
+        Map<String, String> sortedParams = new TreeMap<>();
         paramList.stream().forEach(param -> {
             String name = param.getName();
             String value = param.getValue();
-            if(value != null || !"".equals(value)){
-                sortedParams.put(name,value);
+            if (value != null || !"".equals(value)) {
+                sortedParams.put(name, value);
             }
         });
-        Set<Map.Entry<String,String>> entrys = sortedParams.entrySet();
-        
-    }
+        Set<Map.Entry<String, String>> entrys = sortedParams.entrySet();
+
+    }*/
 }

@@ -1,4 +1,4 @@
-package com.xmj.truth.leetcode.linkedlist.easy;
+package com.xmj.truth.leetcode.linkedlist;
 
 /**
  * author xiumj
@@ -14,18 +14,18 @@ public class ListNode {
      * ListNode(int x) { val = x; }
      * }
      */
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         String str = String.valueOf(val);
-        if(next!=null){
-            str+= "->"+next.toString();
+        if (next != null) {
+            str += "->" + next.toString();
         }
         return str;
     }

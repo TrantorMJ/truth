@@ -21,12 +21,12 @@ public class ListNode {
         val = x;
     }
 
-    @Override
+    /*@Override
     public String toString() {
         String str = String.valueOf(val);
         if (next != null) {
             str += "->" + next.toString();
         }
         return str;
-    }
+    }*/
 }

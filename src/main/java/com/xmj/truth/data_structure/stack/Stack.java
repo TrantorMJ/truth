@@ -1,7 +1,6 @@
 package com.xmj.truth.data_structure.stack;
 
 import java.util.Iterator;
-import java.util.ListIterator;
 
 /**
  * author xiumj

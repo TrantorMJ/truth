@@ -1,4 +1,4 @@
-package com.xmj.truth.data_structure.source_code;
+package com.xmj.truth.source_code;
 
 import java.io.Serializable;
 import java.util.*;
@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * author xiumj
  * create 2018-08-01 18:44
- * desc 链表源码分析
+ * desc LinkedList源码分析
  * remark 未完成
  */
 public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>, Deque<E>, Cloneable, Serializable {
@@ -697,5 +697,29 @@ public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>,
     @Override
     public Iterator<E> descendingIterator() {
         return null;
+    }
+
+    public Object[] toArray() {
+        Object[] result = new Object[size];
+        int i = 0;
+        for (Node<E> x = first; x != null; x = x.next)
+            result[i++] = x.item;
+        return result;
+    }
+
+    @SuppressWarnings("unchecked")
+    public <T> T[] toArray(T[] a) {
+        if (a.length < size)
+            a = (T[]) java.lang.reflect.Array.newInstance(a.getClass().getComponentType(), size);
+
+        int i = 0;
+        Object[] result = a;
+        for (Node<E> x = first; x != null; x = x.next)
+            result[i++] = x.item;
+
+        if (a.length > size)
+            a[size] = null;
+
+        return a;
     }
 }

@@ -179,12 +179,102 @@ public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAcce
             a[size] = null;
         return a;
     }
-    
 
-    @Override
-    public E get(int index) {
-        return null;
+    E elementData(int index) {
+        return (E) elementData[index];
     }
+
+    // 检测index是否越界
+    private void rangeCheck(int index) {
+        if (index >= size)
+            throw new IndexOutOfBoundsException();
+    }
+
+    // 获取index位置的元素
+    public E get(int index) {
+        rangeCheck(index);
+        return elementData(index);
+    }
+
+    // 将index位置的元素设置为element,返回原值
+    public E set(int index, E element) {
+        rangeCheck(index);
+        E oldValue = elementData(index);
+        elementData[index] = element;
+        return oldValue;
+    }
+
+    // 在列表末尾添加元素
+    public boolean add(E e) {
+        ensureCapacityInternal(size + 1);
+        elementData[size++] = e;
+        return true;
+    }
+
+    // 列表指定位置添加元素
+    public void add(int index, E element) {
+        rangeCheckForAdd(index);
+        ensureCapacityInternal(size + 1);
+        System.arraycopy(elementData, index, elementData, index + 1, size - index);
+        elementData[index] = element;
+        size++;
+
+    }
+
+    // 删除指定位置的元素
+    public E remove(int index) {
+        rangeCheck(index);
+        modCount++;
+        E oldValue = elementData(index);
+        int numMoved = size - index - 1;
+        if (numMoved > 0)
+            System.arraycopy(elementData, index + 1, elementData, index, numMoved);
+        elementData[--size] = null; // 防止对象游离
+        return oldValue;
+
+    }
+
+    // 删除第一个匹配的对象
+    public boolean remove(Object o) {
+        if (o == null) {
+            for (int index = 0; index < size; index++) {
+                if (elementData[index] == null) {
+                    fastRemove(index);
+                    return true;
+                }
+            }
+        } else {
+            for (int index = 0; index < size; index++) {
+                if (o.equals(elementData[index])) {
+                    fastRemove(index);
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public void clear() {
+        for (int i = 0; i < size; i++) {
+            elementData[i] = null;
+        }
+        size = 0;
+    }
+
+    // 快速删除方法
+    private void fastRemove(int index) {
+        modCount++;
+        int numMoved = size - index - 1;
+        if (numMoved > 0)
+            System.arraycopy(elementData, index + 1, elementData, index, numMoved);
+        elementData[--size] = null;
+    }
+
+    private void rangeCheckForAdd(int index) {
+        if (index > size || index < 0)
+            throw new IndexOutOfBoundsException();
+    }
+
 
     @Override
     public int size() {

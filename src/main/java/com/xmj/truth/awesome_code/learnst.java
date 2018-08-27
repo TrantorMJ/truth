@@ -1,4 +1,4 @@
-package com.xmj.truth.awesom_code;
+package com.xmj.truth.awesome_code;
 
 /**
  * author xiumj

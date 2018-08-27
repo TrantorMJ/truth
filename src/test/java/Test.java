@@ -4,7 +4,8 @@
  * desc 测试
  */
 public class Test {
-    public static void main(String[] args) {
+
+    public void test() {
         int i = 1;
         int j = 2;
         if ((i = j) == 3) {
@@ -12,5 +13,23 @@ public class Test {
         } else {
             System.out.println("in else i = " + i);
         }
+    }
+
+    public static void raise(int i) {
+        i++;
+    }
+
+    public static void swap(String str1, String str2) {
+        String swap = str1;
+        str1 = str2;
+        str2 = swap;
+    }
+
+    public static void main(String[] args) {
+        String str1 = "a";
+        String str2 = "b";
+        System.out.println("方法执行之前：a = " + str1 + ", b = "+str2);
+        swap(str1,str2);
+        System.out.println("方法执行之前：a = " + str1 + ", b = "+str2);
     }
 }

@@ -1,4 +1,4 @@
-package com.xmj.truth.leetcode.linkedlist.level2;
+package com.xmj.truth.leetcode.linkedlist.level_2;
 
 import com.xmj.truth.leetcode.linkedlist.ListNode;
 

@@ -1,4 +1,4 @@
-package com.xmj.truth.leetcode.divide_and_conquer.level2;
+package com.xmj.truth.leetcode.divide_and_conquer.level_2;
 
 /**
  * author xiumj

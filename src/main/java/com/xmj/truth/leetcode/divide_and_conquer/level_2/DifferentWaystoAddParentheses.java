@@ -1,4 +1,4 @@
-package com.xmj.truth.leetcode.divide_and_conquer.level2;
+package com.xmj.truth.leetcode.divide_and_conquer.level_2;
 
 import java.util.ArrayList;
 import java.util.List;

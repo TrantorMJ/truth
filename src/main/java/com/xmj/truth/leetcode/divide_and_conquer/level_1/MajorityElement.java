@@ -1,4 +1,4 @@
-package com.xmj.truth.leetcode.divide_and_conquer.level1;
+package com.xmj.truth.leetcode.divide_and_conquer.level_1;
 
 import java.util.HashMap;
 import java.util.Map;
